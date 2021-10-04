@@ -5,31 +5,6 @@
     <link>http://example.org/</link>
     <description>Recent content on Mell&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 03 Oct 2021 00:09:01 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>使用hugo搭建个人博客并托管到github时遇到的问题&amp;总结</title>
-      <link>http://example.org/posts/hugo_github/</link>
-      <pubDate>Sun, 03 Oct 2021 00:09:01 +0800</pubDate>
-      
-      <guid>http://example.org/posts/hugo_github/</guid>
-      <description>-&amp;gt;遇到的问题 　1.安装hugo时&amp;hellip; 1)系统变量 　在我已经上传了一篇博客后，再输入命令hugo却显示“hugo不是内部或外部命令”。经检查发现系统变量中path变量中hugo的安装目录不见了，再添加即可。目前不知道是什么原因导致的，但是如果再次出现“hugo不是内部或外部命令”的提示，优先检查path变量。
-2)在安装目录下无法使用hugo命令 　刚开始安装后要退出cmd命令行重新开一个cmd再执行hugo version才能显示安装成功。
- 　2.关于hugo的命令&amp;hellip; 1)使用hugo的地方 　注意要在blog的根目录下使用hugo命令。要通过命令行进入该目录。
-2)-D的flag 　-D的flag表示包括被标记为draft的文章，即也编译标记为draft的文章，被标记为draft的文章也会出现在site中。
- 　3.关于GitHub Desktop&amp;hellip; 1)托管路径 　在GitHub Desktop中打开的是public文件夹，不是connect文件夹。
-2)GitHub Desktop commit的时机 　要在执行hugo命令后才有changes，才能commit。
- 　</description>
-    </item>
-    
-    <item>
-      <title>第一篇blog</title>
-      <link>http://example.org/posts/hello_world/</link>
-      <pubDate>Fri, 01 Oct 2021 19:20:24 +0800</pubDate>
-      
-      <guid>http://example.org/posts/hello_world/</guid>
-      <description>Hello World! Subtitle This is my first blog.</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
