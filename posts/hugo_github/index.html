@@ -6,7 +6,7 @@
     
     <title>使用Hugo搭建个人博客并托管到GitHub时遇到的问题&amp;总结(不定时更新) | Mell&#39;s blog</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="在开始前我对hugo和GitHub一窍不通，只有老师给的一份说明文档。按照说明文档大致上可以完成，但其中遇到的许多问题没有那么容易就找到了解决办法，在我成功搭建博客后的第一篇文章就来记录下我遇到的问题的解决办法以及对于本次搭建博客的总结，以便于以后我继续写博客寻找资料。此文章随时更新。　&raquo;总结 　首先是对于hugo的解释：　  　Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.　　Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.">
+    <meta name="description" content="这是本人的第一个博客，此前我有一个粗略的学习笔记本，记录了学习过程中遇到的问题和解决方法。借这次机会建立一个自己的博客，此后将我所遇到的我认为有意义的事情都记录在此。　　第一次搭建博客不那么顺利，其中遇到的许多问题没有那么容易就找到了解决办法，在我成功搭建博客后的第一篇文章就来记录下我遇到的问题的解决办法以及对于本次搭建博客的总结，以便于以后我继续写博客寻找资料。此文章随时更新。　&raquo;总结 　首先是对于hugo的解释和理解：　  　Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.　　Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Hugo builds pages when you create or update your content.　  　如官网上所说，hugo是一个静态网站生成器。我用的是Markdown语言，他可以将我写的文档编译成一个完整的静态网页。但是每次更新网页必须重新编译整个网站，略有些麻烦，不过目前我也只是在我的博客上记录我所学习的知识笔记等，也不会有多复杂，每次重新编译我觉得没什么大问题。　　那么GitHub又是什么？　  　GitHub is a code hosting platform for version control and collaboration.">
     <meta name="generator" content="Hugo 0.88.1" />
     
     
@@ -27,19 +27,19 @@
     
     
     <meta property="og:title" content="使用Hugo搭建个人博客并托管到GitHub时遇到的问题&amp;总结(不定时更新)" />
-<meta property="og:description" content="在开始前我对hugo和GitHub一窍不通，只有老师给的一份说明文档。按照说明文档大致上可以完成，但其中遇到的许多问题没有那么容易就找到了解决办法，在我成功搭建博客后的第一篇文章就来记录下我遇到的问题的解决办法以及对于本次搭建博客的总结，以便于以后我继续写博客寻找资料。此文章随时更新。　&raquo;总结 　首先是对于hugo的解释：　  　Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.　　Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors." />
+<meta property="og:description" content="这是本人的第一个博客，此前我有一个粗略的学习笔记本，记录了学习过程中遇到的问题和解决方法。借这次机会建立一个自己的博客，此后将我所遇到的我认为有意义的事情都记录在此。　　第一次搭建博客不那么顺利，其中遇到的许多问题没有那么容易就找到了解决办法，在我成功搭建博客后的第一篇文章就来记录下我遇到的问题的解决办法以及对于本次搭建博客的总结，以便于以后我继续写博客寻找资料。此文章随时更新。　&raquo;总结 　首先是对于hugo的解释和理解：　  　Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.　　Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Hugo builds pages when you create or update your content.　  　如官网上所说，hugo是一个静态网站生成器。我用的是Markdown语言，他可以将我写的文档编译成一个完整的静态网页。但是每次更新网页必须重新编译整个网站，略有些麻烦，不过目前我也只是在我的博客上记录我所学习的知识笔记等，也不会有多复杂，每次重新编译我觉得没什么大问题。　　那么GitHub又是什么？　  　GitHub is a code hosting platform for version control and collaboration." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://example.org/posts/hugo_github/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-10-03T00:09:01+08:00" />
 <meta property="article:modified_time" content="2021-10-03T00:09:01+08:00" />
 
 <meta itemprop="name" content="使用Hugo搭建个人博客并托管到GitHub时遇到的问题&amp;总结(不定时更新)">
-<meta itemprop="description" content="在开始前我对hugo和GitHub一窍不通，只有老师给的一份说明文档。按照说明文档大致上可以完成，但其中遇到的许多问题没有那么容易就找到了解决办法，在我成功搭建博客后的第一篇文章就来记录下我遇到的问题的解决办法以及对于本次搭建博客的总结，以便于以后我继续写博客寻找资料。此文章随时更新。　&raquo;总结 　首先是对于hugo的解释：　  　Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.　　Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors."><meta itemprop="datePublished" content="2021-10-03T00:09:01+08:00" />
+<meta itemprop="description" content="这是本人的第一个博客，此前我有一个粗略的学习笔记本，记录了学习过程中遇到的问题和解决方法。借这次机会建立一个自己的博客，此后将我所遇到的我认为有意义的事情都记录在此。　　第一次搭建博客不那么顺利，其中遇到的许多问题没有那么容易就找到了解决办法，在我成功搭建博客后的第一篇文章就来记录下我遇到的问题的解决办法以及对于本次搭建博客的总结，以便于以后我继续写博客寻找资料。此文章随时更新。　&raquo;总结 　首先是对于hugo的解释和理解：　  　Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.　　Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Hugo builds pages when you create or update your content.　  　如官网上所说，hugo是一个静态网站生成器。我用的是Markdown语言，他可以将我写的文档编译成一个完整的静态网页。但是每次更新网页必须重新编译整个网站，略有些麻烦，不过目前我也只是在我的博客上记录我所学习的知识笔记等，也不会有多复杂，每次重新编译我觉得没什么大问题。　　那么GitHub又是什么？　  　GitHub is a code hosting platform for version control and collaboration."><meta itemprop="datePublished" content="2021-10-03T00:09:01+08:00" />
 <meta itemprop="dateModified" content="2021-10-03T00:09:01+08:00" />
-<meta itemprop="wordCount" content="177">
+<meta itemprop="wordCount" content="138">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="使用Hugo搭建个人博客并托管到GitHub时遇到的问题&amp;总结(不定时更新)"/>
-<meta name="twitter:description" content="在开始前我对hugo和GitHub一窍不通，只有老师给的一份说明文档。按照说明文档大致上可以完成，但其中遇到的许多问题没有那么容易就找到了解决办法，在我成功搭建博客后的第一篇文章就来记录下我遇到的问题的解决办法以及对于本次搭建博客的总结，以便于以后我继续写博客寻找资料。此文章随时更新。　&raquo;总结 　首先是对于hugo的解释：　  　Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.　　Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors."/>
+<meta name="twitter:description" content="这是本人的第一个博客，此前我有一个粗略的学习笔记本，记录了学习过程中遇到的问题和解决方法。借这次机会建立一个自己的博客，此后将我所遇到的我认为有意义的事情都记录在此。　　第一次搭建博客不那么顺利，其中遇到的许多问题没有那么容易就找到了解决办法，在我成功搭建博客后的第一篇文章就来记录下我遇到的问题的解决办法以及对于本次搭建博客的总结，以便于以后我继续写博客寻找资料。此文章随时更新。　&raquo;总结 　首先是对于hugo的解释和理解：　  　Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.　　Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Hugo builds pages when you create or update your content.　  　如官网上所说，hugo是一个静态网站生成器。我用的是Markdown语言，他可以将我写的文档编译成一个完整的静态网页。但是每次更新网页必须重新编译整个网站，略有些麻烦，不过目前我也只是在我的博客上记录我所学习的知识笔记等，也不会有多复杂，每次重新编译我觉得没什么大问题。　　那么GitHub又是什么？　  　GitHub is a code hosting platform for version control and collaboration."/>
 
 	
   </head>
@@ -135,16 +135,17 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>　　在开始前我对hugo和GitHub一窍不通，只有老师给的一份说明文档。按照说明文档大致上可以完成，但其中遇到的许多问题没有那么容易就找到了解决办法，在我成功搭建博客后的第一篇文章就来记录下我遇到的问题的解决办法以及对于本次搭建博客的总结，以便于以后我继续写博客寻找资料。此文章随时更新。　　</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>　　这是本人的第一个博客，此前我有一个粗略的学习笔记本，记录了学习过程中遇到的问题和解决方法。借这次机会建立一个自己的博客，此后将我所遇到的我认为有意义的事情都记录在此。　　</p>
+<p>　　第一次搭建博客不那么顺利，其中遇到的许多问题没有那么容易就找到了解决办法，在我成功搭建博客后的第一篇文章就来记录下我遇到的问题的解决办法以及对于本次搭建博客的总结，以便于以后我继续写博客寻找资料。此文章随时更新。　　</p>
 <h1 id="总结">&raquo;总结</h1>
-<p>　　首先是对于hugo的解释：　　</p>
+<p>　　首先是对于hugo的解释和理解：　　</p>
 <blockquote>
 <blockquote>
 <p>　Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.　　</p>
-<p>　Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.　　</p>
+<p>　Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Hugo builds pages when you create or update your content.　　</p>
 </blockquote>
 </blockquote>
-<p>　　如官网上所说，hugo是一个静态网站生成器。但是每次更新网页必须重新编译整个网站，略有些麻烦，不过目前我也只是在我的博客上记录我所学习的知识笔记等，也不会有多复杂，每次重新编译我觉得没什么大问题。　　</p>
+<p>　　如官网上所说，hugo是一个静态网站生成器。我用的是Markdown语言，他可以将我写的文档编译成一个完整的静态网页。但是每次更新网页必须重新编译整个网站，略有些麻烦，不过目前我也只是在我的博客上记录我所学习的知识笔记等，也不会有多复杂，每次重新编译我觉得没什么大问题。　　</p>
 <p>　　那么GitHub又是什么？　　</p>
 <blockquote>
 <blockquote>
@@ -194,7 +195,7 @@
 <hr>
 <p>　　</p>
 <h1 id="遇到的问题">&raquo;遇到的问题</h1>
-<h2 id="1安装hugo时">1.安装hugo时&hellip;</h2>
+<h2 id="1关于安装hugo时">1.关于安装hugo时&hellip;</h2>
 <h3 id="1系统变量">1)系统变量</h3>
 <p>　　在我已经上传了一篇博客后，再输入命令hugo却显示“hugo不是内部或外部命令”。经检查发现系统变量中path变量中hugo的安装目录不见了，再添加即可。目前不知道是什么原因导致的，但是如果再次出现“hugo不是内部或外部命令”的提示，优先检查path变量。</p>
 <h3 id="2在安装目录下无法使用hugo命令">2)在安装目录下无法使用hugo命令</h3>
@@ -206,6 +207,8 @@
 <p>　　注意要在blog的根目录下使用hugo命令，即connect所在的文件夹，在cmd打开的默认路径下无法使用hugo命令。</p>
 <h3 id="2-d的flag">2)-D的flag</h3>
 <p>　　-D的flag表示包括被标记为draft的文章，即也编译标记为draft的文章，被标记为draft的文章也会出现在site中。</p>
+<h3 id="3新建帖子">3)新建帖子</h3>
+<p>　　有时候会出现新建的帖子在博客中不显示的情况，并且使用的命令加上了-D的flag。这是在新建文章的时候文章后面没有加.md后缀。应改为：<code>hugo new posts/&lt;post_name&gt;.md</code>。</p>
 <hr>
 <p>　　</p>
 <h2 id="3关于github-desktop">3.关于GitHub Desktop&hellip;</h2>
